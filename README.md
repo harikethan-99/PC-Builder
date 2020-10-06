@@ -1,17 +1,9 @@
 # PC-Builder
-A simple website design prototype for building PC's
-{
-"repository": {
-    "type": "git",
-    "url": "https://github.com/harikethan-99/PC-Builder/"
-  },
-  "author": "Hari Kethan",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/harikethan-99/PC-Builder/issues"
-  },
-  "homepage": "https://github.com/harikethan-99/PC-Builder#readme",
-  "devDependencies": {
-    "xampp": "5.6.38"
-  }
-}
+   A simple website design prototype for building PC's
+
+# HomePage 
+   First signup with the your details in signup.html 
+   If you don't want to signup then directly go to the logo.html to view the homepage
+
+# Dependencies
+   Any live-server like "wamp" / "xampp"
