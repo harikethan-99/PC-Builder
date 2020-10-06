@@ -1,0 +1,121 @@
+<html>
+<head>
+	<link rel="stylesheet" href="animate.css">
+	<link rel="stylesheet" href="cameraandassemble.css">
+	<link rel="stylesheet" href="cameracapture.css">
+	<link rel="stylesheet" href="assem.css">
+	<title>Upload Image</title>
+	
+</head>
+<body bgcolor="#8d94a0">
+<center>
+	
+		<div class="animated animatedFadeInUp fadeInUp delay-1s">
+			
+	<input type="button" name="image" value=" " id="myBtn" class="camera"><br>
+</div>
+	<div id="myModal" class="modal">
+			
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+  </div>
+      <form action="camera.php" type="POST" enctype="multipart/form-data">
+      	<div>
+      	<img src="camera1.png">
+    </div>
+   <div class="modal-body">
+   	  	<div class="upload">
+	<input type="file" name="image"></div>
+<input type="submit" name="submit" value="Start Test">
+</div>
+    </form>
+</div>
+
+</div>
+<div class="animated fadeInRight faster">
+<div class="line">
+	</div>
+</div>
+
+	<div class="animated animatedFadeInDown fadeInDown delay-1s">
+	<input type="button" name="button" id="myBtn1" class="assemble"><br>
+</div>
+<div id="myModal1" class="modal1">
+	 <div class="modal-content1">
+    <div class="modal-header1">
+      <span class="close1">&times;</span>
+  </div>
+   <div class="modal-body1">
+<div class="animated  fadeInLeft delay-1s">
+<input type="button" name="submit" id="game" class="game">
+</div>
+<div class="animated fadeInDown delay-1s">
+<input type="button" name="designer" class="designer">
+</div>
+<div class="animated fadeInRight delay-1s">
+<input type="button" name="developer" class="developer">
+</div>
+</div>     
+</div>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+var modal1 = document.getElementById("myModal1");
+
+// Get the button that opens the modal
+var btn1 = document.getElementById("myBtn1");
+
+// Get the <span> element that closes the modal
+var span1 = document.getElementsByClassName("close1")[0];
+
+// When the user clicks the button, open the modal 
+btn1.onclick = function() {
+  modal1.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span1.onclick = function() {
+  modal1.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal1) {
+    modal1.style.display = "none";
+  }
+}
+var btn2 = document.getElementById("game");
+btn2.onclick = function() {
+  window.open("camera.php");
+}
+</script>
+</center>
+	</body>

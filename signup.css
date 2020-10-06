@@ -1,0 +1,73 @@
+body{
+  background-image: linear-gradient(to right,rgba(255, 0, 0, 0.3),rgba(0, 0, 255, 0.5));
+}
+div{
+
+  font-family: arial,serif;
+
+  height:75%;
+  width:40%;
+  margin-top: 5%;
+  border-radius: 30px;
+  color:#ffffff;
+  background-size: cover;
+  background-position: center;
+  //background-blend-mode:overlay;
+  background-image: linear-gradient(rgba(255, 0, 0, 0.5),rgba(0, 0, 255, 0.5)),url("5.jpeg");
+  box-shadow: 3px 3px 8px black;
+}
+.labsecond,.labfirst,.labmobno,.labemail,.inputmob,.inputemail,.inputfirst,.inputsecond,.labusername,.inputusername,.labpassword,.labconfirmpass,.inputpassword,.inputconfirmpass,.submit
+{
+  margin-top: 30px;
+}
+.inputmob,.inputconfirmpass,.inputemail,.inputfirst,.inputsecond,.inputusername,.inputpassword
+{
+  border:none;
+  background: transparent;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+}
+.submit
+{
+  border-radius: 8px;
+  border-style: none;
+  font-size: 20px;
+  padding: 5px 10px;
+  box-shadow: -2px 1px 8px #686868;
+}
+.submit:hover
+{
+
+  box-shadow: -2px 1px 8px #a9a9a9;
+}
+.labconfirmpass
+{
+  margin-right: 30px;
+}
+.labpassword
+{
+  margin-right: 90px;
+}
+.labusername
+{
+  margin-right: 85px;
+}
+.header
+{
+color: #edf5e1;
+}
+.labsecond
+{
+margin-right: 60px;
+}
+ .labmobno
+ {
+   margin-right: 50px;
+ }
+.labfirst {
+  margin-right: 83px;
+}
+.labemail
+{
+  margin-right: 121px;
+}

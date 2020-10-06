@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.80;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+.bgimg-1 {
+  background-image: linear-gradient(rgba(255, 0, 0, 0.6),rgba(0, 0, 0, 0.7)), url("4.jpeg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(255, 0, 0, 0.7)), url("2.jpeg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image:linear-gradient(rgba(255, 0, 0, 0.8),rgba(0, 0, 0, 0.2)), url("1.jpeg");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 18px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
+</style>
+</head>
+<body>
+<nav class="navigation">
+<p>Pc BUilDER</p>
+</nav>
+<div class="bgimg-1 animated fadeInRightBig">
+  <div class="caption">
+  <span class="border">COMBLER</span>
+  </div>
+</div>
+
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+  <h3 style="text-align:center;">COMBLER</h3>
+  <center><p>This Site Helps You to build a computer of your own choice. Its not with the <strong>colour stuffs.</strong>But with the <strong>power stuffs.</strong> You can experiment by changing each and every part of the computer.</p></center>
+  <em><center><q>Good bye to the readymades. Welcome to the customised</q></center></em>
+</div>
+
+<div class="bgimg-2">
+  <div class="caption">
+  <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">LESS AMOUNT</span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <center><p>With Less Money you can focus on the main area where you want more <strong>power</strong> and <strong>advantage</strong>.</p></center>
+  </div>
+</div>
+<div class="animated fadeInRightBig">
+<div class="bgimg-3">
+  <div class="caption">
+  <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">MORE RAW POWER</span>
+  </div>
+</div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+  <center><p>Don't sacrifice anything. If you are aware of your requirement with minimal budget you can aquire the <strong>raw power</strong> which you never thought about.</p></center>
+    </div>
+</div>
+
+<div class="bgimg-1">
+  <div class="caption">
+  <span class="border" style="letter-spacing: 8px;">So why Wait Lets Start to Build!</span>
+  </div>
+</div>
+
+</body>
+</html>

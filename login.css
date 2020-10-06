@@ -1,0 +1,92 @@
+.signup
+{
+    text-decoration: none;
+    font-size: 25px;
+    color: darkseagreen;
+}
+.signup:hover
+{
+    transition-duration: 300ms;
+    color: darkgreen;
+}
+.shake
+{
+  duration:2s;
+}
+.logincomp
+{
+  background-color: #d3d3d3;
+  border-radius: 10px;
+  margin-top: 10px;
+  width:35%;
+  height:70%;
+  box-shadow: 2px 2px 2px darkgray;
+}
+.logincomp:hover
+{
+  transition: all ease-in-out;
+  transition-duration:700ms;
+  box-shadow: 4px 4px 8px darkgray;
+
+}
+img{
+  border-radius: 10px;
+  repeat:no-repeat;
+  opacity: 0.7;
+}
+.LOGIN{
+  margin-top: 20%;
+ }
+
+.logincompusername , .logincomppassword, .logincompsubmit,.logincomppasswordinput,.logincompusernameinput
+{
+  margin-right: 24px;
+  font-family:arial,sans-serif;
+}
+
+.logincompusernameinput
+{
+  margin-top: 10%;
+}
+.logincompusernameinput,.logincomppasswordinput
+{
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+}
+.logincomppasswordinput
+{
+
+  margin-top: 10%;
+}
+.logincomppasswordinput:focus,.logincompusernameinput:focus
+{
+  border-bottom: 2px solid rgb(90,120,90)
+}
+.logincompsubmit:hover
+{
+  background-color: white;
+  color: rgb(91,173,95);
+}
+
+.forgotpass
+{
+text-decoration: none;
+color:  #8fb9a7;
+}
+.forgotpass:hover
+{
+  color: rgb(75,150,75)
+}
+
+.logincompsubmit
+{
+background-color: rgb(91,173,95);
+color: white;
+padding: 8px;
+border-style: none;
+border-radius:15px;
+margin-left: 70px;
+margin-top: 8%;
+}

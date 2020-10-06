@@ -1,0 +1,356 @@
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+
+} 
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width:900px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color:#000000;
+  margin-left:620px;
+  font-size: 28px;
+  font-weight: bold;
+
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+
+}
+
+ 
+.modal-header {
+
+  padding: 2px 6px;
+  color:#000000;
+  font-family:fantasy;
+  font-style:italic;
+  font-size:20px;
+  width:400px;
+  height:50px;
+
+}
+
+.modal-body {padding: 2px 16px;
+   width:1100px;
+  height:480px;
+}
+  .modal-body :hover{padding: 2px 16px;
+   width:1100px;
+  height:480px;
+ box-shadow:5px 5px 8px #888888;}
+.back{
+  width:870px;
+  height:50px;
+  background-color: #201e1e;
+   margin-right:870px;
+  margin-top: -60px;
+  border-radius: 10px;
+   box-shadow:40px 10px 8px #888888;
+}
+.headd{
+  color: #ad0826;
+  font-size:14px;
+  font-style: bold;
+  margin-right:870px;
+  margin-top: -40px;
+      font-family:Verdana;
+
+}
+.bacc{
+  background:url('mb1.jpg');
+  width: 700px;
+  height: 480px;
+}
+.subject{
+   color: #ad0826;
+  font-size:13px;
+  font-style: bold;
+  margin-right:950px;
+  margin-top:50px;
+      font-family:Verdana;
+
+}
+.subject1img{
+ margin-right:820px;
+  margin-top:30px;
+}
+.subject1{
+   color: #ad0826;
+  font-size:13px;
+  font-style: bold;
+  margin-right:820px;
+  margin-top:-25px;
+      font-family:Verdana;
+
+}
+.rampart{
+  width: 100px;
+  margin-top:-30px;
+ margin-right:850px;
+}
+.subject2img{
+ margin-right:320px;
+  margin-top:-100px;
+}
+.subject2{
+   color: #ad0826;
+  font-size:13px;
+  font-style: bold;
+  margin-right:320px;
+  margin-top:-20px;
+      font-family:Verdana;
+
+}
+.smpspart{
+  width: 100px;
+  margin-top:-25px;
+  margin-right:320px;
+}
+.subject3img{
+ margin-left:150px;
+  margin-top:-90px;
+}
+.subject3{
+   color: #ad0826;
+  font-size:13px;
+  font-style: bold;
+  margin-left:150px;
+  margin-top:-15px;
+      font-family:Verdana;
+
+}
+.gpupart{
+  width: 100px;
+  margin-top:-25px;
+ margin-left:150px;
+}
+.subject4img{
+ margin-right:820px;
+  margin-top:30px;
+}
+.subject4{
+   color: #ad0826;
+  font-size:13px;
+  font-style: bold;
+  margin-right:820px;
+  margin-top:-25px;
+      font-family:Verdana;
+
+}
+.hddpart{
+  width: 100px;
+  margin-top:-20px;
+ margin-right:850px;
+}
+.subject5img{
+ margin-right:320px;
+  margin-top:-90px;
+}
+.subject5{
+   color: #ad0826;
+  font-size:13px;
+  font-style: bold;
+  margin-right:300px;
+  margin-top:-20px;
+      font-family:Verdana;
+
+}
+.sddpart{
+  width: 100px;
+  margin-top:-20px;
+ margin-right:320px;
+}
+.subject6img{
+ margin-left:150px;
+  margin-top:-90px;
+}
+.subject6{
+   color: #ad0826;
+  font-size:13px;
+  font-style: bold;
+  margin-left:150px;
+  margin-top:-20px;
+      font-family:Verdana;
+
+}
+.processorpart{
+  width: 100px;
+  margin-top:-20px;
+ margin-left:150px;
+}
+.subject7img{
+ margin-right:300px;
+  margin-top:40px;
+}
+.MotherBoard{
+  color: #ad0826;
+  font-size:16px;
+  font-style: bold;
+  margin-top:-20px;
+  margin-right: 300px;
+      font-family:Verdana;
+
+}
+.display{
+  color: #ad0826;
+  font-size:14px;
+  font-style: bold;
+   margin-top:-100px;
+   margin-right: 490px;
+      font-family:Verdana;
+}
+
+
+.resulttext{
+  font-style:bold;
+  font-size: 10px;
+  color:  #ffffff;
+  margin-right: 450px;
+  margin-top: 70px;
+   font-family:Verdana;
+}
+.resulttext2{
+  font-style:bold;
+  font-size: 10px;
+  color:  #ffffff;
+  margin-right: 60px;
+  margin-top: -30px;
+   font-family:Verdana;
+}
+.resulttext1{
+  font-style:bold;
+
+  color:  #ad0826;
+   font-family:Verdana;
+}
+.modelno1{
+ margin-top: -40px;
+   margin-left:280px;
+}
+.modelno{
+  margin-left:-120px;
+  margin-top:-60px;
+  font-size: 14px;
+}
+.modelno11{
+  margin-left:100px;
+  margin-top:-34px;
+  font-size: 14px;
+}
+.modelno12{
+  margin-left:320px;
+  margin-top:-34px;
+  font-size: 14px;
+}
+.modelno13{
+  margin-left:500px;
+  margin-top:-34px;
+  font-size: 14px;
+}
+.modelno14{
+  margin-left:-120px;
+  margin-top:-10px;
+  font-size: 14px;
+}
+.modelno15{
+ margin-left:320px;
+  margin-top:-34px;
+  font-size: 14px;
+}
+.modelno16{
+   margin-left:500px;
+  margin-top:-34px;
+  font-size: 14px;
+}
+.modelno17{
+  margin-left:130px;
+  margin-top:-34px;
+  font-size: 14px;
+}
+.m{
+  margin-top: 90px;
+ 
+
+}
+.mm{
+   background-color: #201e1e;
+  width: 800px;
+  height: 100px;
+  margin-top: -140px;
+}
+  .sub1{
+  position: absolute;
+  width:170px;
+    height:20px;  
+    color:#ffffff;
+    border:none;
+    
+  background-color: #f54242;
+    border-style: none; 
+    color:#ffffff;
+    border-radius:2%;
+    background-position: center;
+}
+  .sub1:hover{
+  position: absolute;
+  width:170px;
+    height:20px;  
+    color:#ffffff;
+    border:none;
+    
+  background-color: #ad0826;
+    border-style: none; 
+    color:#ffffff;
+    border-radius:2%;
+    background-position: center;
+}
+.Exit{
+ 
+  width:80px;
+    height:80px;  
+    color:#ffffff;
+    border:none;
+    margin-right: 1450px;
+    margin-top: 30px;
+  background-color: #f54242;
+    border-style: none; 
+    color:#ffffff;
+    border-radius:2%;
+    background-position: center;
+}

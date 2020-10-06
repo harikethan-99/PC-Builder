@@ -1,0 +1,56 @@
+.body
+{
+    background-image: linear-gradient(#ffffff,#ffffff);
+
+}
+.image01
+{
+    min-height: 600px;
+    background-image: url("ram01mask.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.image02
+{
+    min-height: 1000px;
+    background-image: url("processorback.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.image03
+{
+    min-height: 800px;
+    background-image: url("gpuback.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.desc
+{
+    font-size: 25px;
+    margin: 160px;
+    display: block;
+    line-height: 42px;
+    word-spacing: 10px;
+    color: #002424;
+    width:80%;
+    
+}
+.descsm
+{
+    font-family: "arial",sans-serif;
+    margin: 300px;
+    font-size: 25px;
+    display: inline-block;
+    line-height: 35px;
+    word-spacing: 10px;
+    color: #001919;
+    width:80%;
+    
+}
